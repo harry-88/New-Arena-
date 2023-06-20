@@ -1,0 +1,159 @@
+.leftvactor {
+    position: absolute;
+    top: 28%;
+    left: 0%;
+    z-index: -1;
+}
+
+.rightvactor {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: -1;
+}
+
+.footballPlayer {
+    position: absolute;
+    right: 0%;
+    top: 14%;
+    z-index: -1;
+}
+
+.landingText {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 78px;
+    letter-spacing: -0.025em;
+    color: #3D3B52;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+.landingBtn {
+    height: 50px;
+    width: 170px;
+    border: 3px solid #FF9F1C;
+    background-color: transparent;
+    margin-left: 23%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FF9F1C;
+}
+
+.landingCurv {
+    margin-top: 8.5%;
+    width: 100%;
+}
+
+.footerImage {
+    height: 500px;
+    width: 100%;
+    background-image: url("../images/footer.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 80%;
+    z-index: -2;
+}
+
+.curvTxt {
+    position: absolute;
+    left: 40%;
+    bottom: 8%;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    transform: matrix(0.99, 0.14, -0.13, 0.99, 0, 0);
+}
+
+.footerTxt {
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.025em;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.footerBtn {
+    height: 55px;
+    width: 170px;
+    border: 3px solid #FF9F1C;
+    background-color: transparent;
+    margin: 0% 10%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+    color: #FF9F1C;
+}
+@media only screen and (max-width: 1024px){
+    .landingCurv {
+        margin-top: 20%;
+    }
+    .curvTxt{
+        bottom: -15%;
+    }
+    .footerImage{
+        margin-top: 12%;
+    }
+}
+@media only screen and (max-width: 768px){
+  .leftvactor{
+    display: none;
+  }
+  .rightvactor{
+    display: none;
+  }
+  .landingCurv {
+    margin-top: 33%;
+    height: 200px;
+}
+.curvTxt{
+    bottom: -17%;
+}
+.footerImage{
+    margin-top: 15%;
+}
+.footerTxt{
+    margin-top: 18%;
+}
+}
+@media only screen and (max-width: 425px){
+    
+      .footballPlayer{
+        display: none;
+        height: 90px !important;
+      }
+      .curvTxt{
+        bottom: 2%;
+        transform: matrix(0.99, 0.30, -0.13, 0.99, 0, 0);
+    }
+    .footerImage{
+        margin-top: 15%;
+    }
+    .footerTxt{
+        margin-top: 28%;
+    }
+    .landingText{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .footerTxt{
+        font-size: 15px;
+        margin-top: 40%;
+    }
+    .footerImage{
+        margin-top: -4%;
+    }
+}
